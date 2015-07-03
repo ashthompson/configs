@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/export/home/netbanx/logs'
+let g:netrw_dirhist_2='/export/home/athompson/svn/netbanx-git'
+let g:netrw_dirhist_3='/export/home/athompson/svn/netbanx-git/NBX/NBX/lib/NBX/Controller'
+let g:netrw_dirhist_4='/export/home/athompson/svn/netbanx-git/NBX/NBX/lib/NBX/Controller/Smurf'
+let g:netrw_dirhist_5='/export/home/athompson/svn/netbanx-git/NBX/NBX/lib/NBX/Controller'
