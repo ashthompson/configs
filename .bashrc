@@ -122,13 +122,9 @@ if [ ! -z $VLESS ]; then
 fi
 
 # User specific aliases and functions
-alias controller='cd ~/svn/netbanx/NBX/NBX/lib/NBX/Controller'
-alias pcd_c='cd ~/svn/netbanx/NBX/Pachinko/Pay/lib/Pachinko/Component'
-alias pcd_w='cd ~/svn/netbanx/NBX/Pachinko/Pay/config/^workflows'
 alias fus='prove --state=failed,save'
 alias fusro='nbxtra -r ; prove --state=failed,save'
 alias fusrodah='nbxtra -r ; date ; time make test ; nbxtra -r ; prove --state=failed,save'
-alias rnc='nbx5 --component=Netcentre restart'
 alias ~~='cd ~/git/netbanx'
 alias logs='cd /export/home/netbanx/logs'
 alias findbranch='git branch | grep'
